@@ -18,7 +18,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://rhinomedia.uk/char.png',
+      avatar: 'https://tool.z5i.uk/char.png',
       name:  t('mjset.sysname'),//'AInOne',
       description: 'Star on <a href="https://github.com/Dooy/chatgpt-web-midjourney-proxy" class="text-blue-500" target="_blank" >GitHub</a>',
     },
